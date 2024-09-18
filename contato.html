@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="sv.css">
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html" target="_top">INICIO</a></li>
+            <li><a href="servicos.html" target="_top">SERVIÇOS</a></li>
+            <li><a href="sobre.html" target="_top">SOBRE</a></li>
+            <li><a href="contato.html" target="_top">CONTATO</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Contato</h1>
+    </header>
+
+    <main>
+        <div class="row">
+            <section>
+                <h2>Entre em Contato Conosco</h2>
+                <p>
+                    Se você tiver alguma dúvida ou precisar de mais informações, não hesite em entrar em contato conosco. Nossa equipe está aqui para ajudar!
+                </p>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+
+            <aside>
+                <h2>Informações de Contato</h2>
+                <p>
+                    <strong>Email:</strong> <a href="mailto:contato@aimmasterpro.com">contato@aimmasterpro.com</a><br>
+                    <strong>Telefone:</strong> +55 11 1234-5678<br>
+                    <strong>Endereço:</strong> Rua Exemplo, 123, São Paulo, SP, Brasil
+                </p>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados - kaio</p>
+    </footer>
+</body>
+</html>

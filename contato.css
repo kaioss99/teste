@@ -1,0 +1,141 @@
+/* sv.css */
+
+/* Reset básico para garantir uma aparência consistente em todos os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+/* Navegação */
+nav {
+    background-color: #4a148c; /* Roxo escuro */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6a1b9a; /* Roxo médio */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Corpo principal */
+main {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+section, aside {
+    flex: 1;
+    min-width: 300px;
+}
+
+section h2, aside h2 {
+    color: #4a148c; /* Roxo escuro */
+}
+
+section form {
+    background-color: #e1bee7; /* Roxo claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+section form input, 
+section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+section form button {
+    background-color: #6a1b9a; /* Roxo médio */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+section form button:hover {
+    background-color: #4a148c; /* Roxo escuro */
+}
+
+/* Informações de Contato */
+aside {
+    background-color: #f3e5f5; /* Roxo muito claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+aside p a {
+    color: #6a1b9a; /* Roxo médio */
+    text-decoration: none;
+}
+
+aside p a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: #4a148c; /* Roxo escuro */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
